@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <meta name="description" content="A list of my projects showcasing my skills as a frontend developer.">
+    <meta name="keywords" content="HTML, Projects, Frontend Developer, Portfolio">
+    <meta name="author" content="Your Name">
+    <link rel="icon" href="https://via.placeholder.com/32" type="image/png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <nav>
+            <div class="logo">
+                <a class="alogo" href="/index.html">
+                    <img src="https://via.placeholder.com/150" alt="Logo" />
+                    <h4>My Website</h4>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <button class="dark-mode-toggle" onclick="myFunction()">Toggle Dark Mode</button>
+
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <h1>Frontend Developer</h1>
+            <p>html only with proper layout, no styling</p>
+        </header>
+        <main class="main-projects">
+            <h1>My Projects</h1>
+            <ul>
+                <li>
+                    <h3> Portfolio Website </h3>
+                    <p>A personal website to showcase my work and skills.</p>
+                </li>
+                <li>
+                    <h3> Github project </h3>
+                    <p>A personal website to showcase my work and skills.</p>
+                </li>
+                <li>
+                    <h3> Calculator App </h3>
+                    <p>A personal website to showcase my work and skills.</p>
+                </li>
+                <li>
+                    <h3>Task Manager App</h3>
+                    <p>A simple web app to manage daily tasks and to-dos.</p>
+                </li>
+                <li>
+                    <h3>Weather Dashboard</h3>
+                    <p>Displays current weather information for any city.</p>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
+
+</html>

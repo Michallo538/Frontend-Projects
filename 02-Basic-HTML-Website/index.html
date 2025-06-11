@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="description" content="My HTML Only Portfolio">
+    <meta name="keywords" content="HTML, Portfolio, Projects, Articles">
+    <meta name="author" content="Your Name">
+    <link favicon="https://via.placeholder.com/32" href="https://via.placeholder.com/32">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <nav>
+            <div class="logo">
+                <a class="alogo" href="/index.html">
+                    <img src="https://via.placeholder.com/150" alt="Logo" />
+                    <h4>My Website</h4>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <button class="dark-mode-toggle" onclick="myFunction()">Toggle Dark Mode</button>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <h1>Frontend Developer</h1>
+            <p>html only with proper layout, no styling</p>
+        </header>
+
+        <main class="main-content">
+            <section class="projects">
+                <h3>Projects</h3>
+                <div class="projects-list">
+                    <a href="#">HTML Only Portfolio</a><br>
+                    <hr>
+                    <a href="#">Calculator</a><br>
+                    <hr>
+                    <a href="#">Quiz</a><br>
+                    <hr>
+                    <a href="#">Countdown Timer</a><br>
+                    <hr>
+                    <a href="/projects.html">Product Upcoming Page</a>
+                </div>
+            </section>
+            <section class="workexperience">
+                <h5>Work Epxerience</h5>
+                <h6>roadmap.sh</h6>
+                <p>Solved all the frontend projects</p>
+                <a href="https://roadmap.sh/u/michalmazur">Visit my profile</a>
+            </section>
+            <section class="opensource">
+                <h5>Open source work</h5>
+                <p>Contributed to 50 opensource projects. Made my own projects wit 200 Github Stars.</p>
+                <a href="https://github.com">Visit my Github Profile</a>
+            </section>
+            <section class="education">
+                <h5>Education</h5>
+                <p>Graduated with 3.76 out of 4 CGPA. Won aAcme Hackathon Organised in 30 sessions.</p>
+                <p>Courses I took:</p>
+                <ul>
+                    <li>Object oriented programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Development</li>
+                    <li>Machine Learning</li>
+                    <li>Computer Networks</li>
+                    <li>Database Management Systems</li>
+                    <li>Operating Systems</li>
+                    <li>Software Engineering</li>
+                </ul>
+            </section>
+            <section class="reviews">
+                <h3>Reviews from my Teachers</h3>
+                <div class="reviewCollection">
+
+                    <div class="review">
+                        <p>He is a great student. He solved all the frontend projects.</p>
+                        <h5>John Doe</h5>
+                        <h5>Assistant Professor</h5>
+                    </div>
+                    <div class="review">
+                        <p>He is a great student. He solved all the frontend projects.</p>
+                        <h5>Jane Smith</h5>
+                        <h5>Assistant Professor</h5>
+                    </div>
+                    <div class="review">
+                        <p>He is a great student. He solved all the frontend projects.</p>
+                        <h5>Emily Johnson</h5>
+                        <h5>Assistant Professor</h5>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2023 My Website</p>
+        </footer>
+    </div>
+
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>
