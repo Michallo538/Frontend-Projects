@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    
+
+}
+main .complete-changelog-btn{
+    text-align: center;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.timeline {
+    left: 40%;
+    position: relative;
+    padding: 20px 0;
+    margin: 20px 0;
+    width: fit-content;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    width: 2px;
+    height: 100%;
+    background-color: #000000;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 20px 0;
+
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -23.5px;
+    top: 14px;
+    width: 14px;
+    height: 14px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.date {
+    position: absolute;
+    left: -60%;
+    top: 16px;
+    color: #000000;
+    font-size: 20px;
+    opacity: 55%;
+
+}
+
+.description {
+    position: relative;
+    left: 20px;
+    padding: 10px;
+    top: 8px;
+    font-size: 17px;
+}
+
+.complete-changelog-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.complete-changelog-btn a {
+    color: white;
+    text-decoration: none;
+}
